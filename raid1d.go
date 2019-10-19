@@ -1,4 +1,3 @@
- 
 package student
 
 import (
@@ -17,7 +16,7 @@ func Raid1d(x, y int) {
 			var isRight = x1 == x
 
 			if isTop || isBottom || isLeft || isRight {
-				if (isLeft && isTop) || (isLeft && isBottom ) {
+				if (isLeft && isTop) || (isLeft && isBottom) {
 					z01.PrintRune('A')
 				} else if (isRight && isTop) || (isBottom && isRight) {
 					z01.PrintRune('C')
