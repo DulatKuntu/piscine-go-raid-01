@@ -18,7 +18,7 @@ func Raid1b(x, y int) {
 			if isTop || isBottom || isLeft || isRight {
 				if (isLeft && isTop) || (isRight && isBottom && y != 1 && x != 1) {
 					z01.PrintRune('/')
-				} else if (isRight && y1 == 1) || (isBottom && x1 == 1) {
+				} else if (isRight && isTop) || (isBottom && isLeft) {
 					z01.PrintRune('\\')
 				} else {
 					z01.PrintRune('*')
