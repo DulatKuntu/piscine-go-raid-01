@@ -7,13 +7,13 @@ import (
 )
 
 func main() {
-	student.Raid1b(5, 3)
+	student.Raid1c(5, 3)
 	fmt.Println()
-	student.Raid1b(5, 1)
+	student.Raid1c(5, 1)
 	fmt.Println()
-	student.Raid1b(1, 1)
+	student.Raid1c(1, 1)
 	fmt.Println()
-	student.Raid1b(1, 5)
+	student.Raid1c(1, 5)
 	fmt.Println()
-	student.Raid1b(-1, 6)
+	student.Raid1c(-1, 6)
 }

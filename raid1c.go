@@ -4,7 +4,7 @@ import (
 	"github.com/01-edu/z01"
 )
 
-func Raid1b(x, y int) {
+func Raid1c(x, y int) {
 	if x < 0 || y < 0 {
 		return
 	}
@@ -16,12 +16,12 @@ func Raid1b(x, y int) {
 			var isRight = x1 == x
 
 			if isTop || isBottom || isLeft || isRight {
-				if (isLeft && isTop) || (isRight && isBottom && y != 1 && x != 1) {
-					z01.PrintRune('/')
-				} else if (isRight && isTop) || (isBottom && isLeft) {
-					z01.PrintRune('\\')
+				if (isLeft && isTop) || (isRight && isTop) {
+					z01.PrintRune('A')
+				} else if (isRight && isBottom) || (isLeft && isBottom) {
+					z01.PrintRune('C')
 				} else {
-					z01.PrintRune('*')
+					z01.PrintRune('B')
 				}
 			} else {
 				z01.PrintRune(' ')
