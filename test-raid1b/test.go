@@ -14,4 +14,6 @@ func main() {
 	student.Raid1b(1, 1)
 	fmt.Println()
 	student.Raid1b(1, 5)
+	fmt.Println()
+	student.Raid1b(-1, 6)
 }
