@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	student.Raid1e(5, 0)
+	student.Raid1b(5, 3)
 	fmt.Println()
 	student.Raid1e(0, 1)
 	fmt.Println()
