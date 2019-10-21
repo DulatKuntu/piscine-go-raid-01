@@ -5,7 +5,7 @@ import (
 )
 
 func Raid1e(x, y int) {
-	if x < 0 || y < 0 {
+	if x <= 0 || y <= 0 {
 		return
 	}
 	for y1 := 1; y1 <= y; y1++ {
